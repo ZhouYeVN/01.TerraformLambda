@@ -1,0 +1,17 @@
+# Link Note: https://www.notion.so/tdboi/Terraform-Project-1-29856f762cf580a691e8dc192e5034bb
+
+
+      COMMAND
+Init: .\terra.bat init
+Format: .\terra.bat fmt 
+Validate: .\terra.bat validate
+Plan: .\terra.bat plan -out=tfplan
+Apply: .\terra.bat apply tfplan
+Destroy: .\terra.bat destroy
+Show Outputs: .\terra.bat output
+# Must run in the directory where terraform.tfstate is located
+
+create .env file:
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_DEFAULT_REGION=us-east-1
